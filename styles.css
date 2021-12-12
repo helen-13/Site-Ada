@@ -44,8 +44,11 @@ color: #ffe36d;
 }
 
 section{
-max-width: 60%;
+width: 60%;
 margin: 0 auto;
+}
+section section{
+width:100%;
 }
 
 ul{
@@ -58,4 +61,31 @@ a{
   text-decoration: none;
   color: #99ffff;
   font-weight: 700;
+}
+
+.principal{
+  background: #ff6cb5;
+  height: 40px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.principal a{
+  color: #fff;
+  text-decoration: underline;
+  font-weight: normal;
+  margin: 0 89px;
+}
+.principal li{
+    display:inline-block;
+    line-height:2.5;
+
+}
+
+.button{
+    background-color:#41f341;
+    color:#ffffff;
+    padding: 2px 20px;
+    border: 1px solid transparent;
+    border-raius: 3px;
 }
